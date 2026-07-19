@@ -186,7 +186,7 @@ def overlay_heatmap(img: Image.Image, heatmap: np.ndarray, alpha: float = 0.45) 
     heatmap_img = Image.fromarray(heatmap_resized).resize(img.size)
     heatmap_arr = np.array(heatmap_img)
 
-    jet = cm.get_cmap("jet")
+    jet = cm.colormaps["jet"]
     jet_colors = jet(np.arange(256))[:, :3]
     jet_heatmap = jet_colors[heatmap_arr]
     jet_heatmap = np.uint8(jet_heatmap * 255)
