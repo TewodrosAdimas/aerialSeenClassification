@@ -1,4 +1,3 @@
-```markdown
 # 🛰️ UC Merced Land Use Classification
 
 Deep learning-based aerial scene classification using a custom CNN trained on the **UC Merced Land Use Dataset**. Includes a Streamlit web app for image classification with **Grad-CAM explainability**.
@@ -86,6 +85,3 @@ aerialSeenClassification/
 
 **Tewodros Bewuket Adimas**
 MSc Artificial Intelligence for Science and Technology
-```
-
-Just tidied the formatting, headers, and spacing — content and structure are otherwise the same as what you had. Paste directly into `README.md`.
